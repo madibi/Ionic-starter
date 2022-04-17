@@ -1,0 +1,36 @@
+<section class="host request-code" host-classes>
+  <section class="comp request-code">
+    <div class="module-title">
+      <span>{{'auth-request-code.title' | translate}}</span>
+    </div>
+    <div class="main">
+      <div class="wrapper">
+        <div class="content">
+          <div class="start">
+            <form libs-form [formGroup]="requestCodeForm">
+              <app-select-country-code-component (updatePhonePrefix)="updatePhonePrefix($event)"></app-select-country-code-component>
+              <div class="form-control">
+                <div class="main">
+                  <label>{{'auth-request-code.mobile-number' | translate}}</label>
+                  <input
+                    libs-input-text
+                    [attr.autocomplete]="isDevMode ? '' : 'off'"
+                    type="text"
+                    name="mobileNumber"
+                    formControlName="mobileNumber" />
+                </div>
+                <div class="validation">
+                </div>
+              </div>
+              <div class="buttons">
+                <app-button [wide]="true" (click)="onRequestCode()">{{'auth-request-code.send' | translate}}</app-button>
+              </div>
+            </form>
+          </div>
+          <div class="end"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+

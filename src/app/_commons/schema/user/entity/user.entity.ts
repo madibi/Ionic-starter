@@ -1,0 +1,3 @@
+import { Role } from './../../enum/entity/role.entity';
+
+export interface User  {  id: string;  phonePrefix: string;  mobileNumber: string;  emailAddress: string;  userName: string;  password?: string;  firstName?: string;  lastName?: string;  jobTitle?: string;  genderId: string;  phoneNumber?: string;  address?: string;  skills?: string; // comma separated  isMobileNumberVerified?: boolean;  isEmailAddressVerified?: boolean;  bio?: string;  aboutMe?: string;  roles: Role[];}

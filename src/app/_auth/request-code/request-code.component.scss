@@ -1,0 +1,40 @@
+@import 'core';
+
+:host {}
+
+section.host.request-code {}
+
+section.comp.request-code {
+  width: 100%;
+  height: 100vh;
+
+  > .main {
+    width: 100%;
+    height: calc(100vh - 50px - 15px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > .wrapper {
+      width: 100%;
+      max-width: $app-max-module-width;
+      padding: 15px;
+
+      > .content {
+        display: flex;
+
+        > .start {
+          width: 100%;
+        }
+        > .end {
+          width: 0;
+        }
+      }
+    }
+  }
+}
+
+select-country-code-component {
+  margin-bottom: 10px;
+  display: block;
+}

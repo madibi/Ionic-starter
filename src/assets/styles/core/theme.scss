@@ -1,0 +1,23 @@
+@import 'colors';
+
+$themeProps: (
+  --bgColorLowest: var(--bgColorLowest),
+  --bgColorLower: var(--bgColorLower),
+  --bgColorLow: var(--bgColorLow),
+  --bgColor: var(--bgColor),
+  --bgColorHigh: var(--bgColorHigh),
+  --bgColorHigher: var(--bgColorHigher),
+  --bgColorHighest: var(--bgColorHighest),
+
+  --fgColorLowest: var(--fgColorLowest),
+  --fgColorLower: var(--fgColorLower),
+  --fgColorLow: var(--fgColorLow),
+  --fgColor: var(--fgColor),
+  --fgColorHigh: var(--fgColorHigh),
+  --fgColorHigher: var(--fgColorHigher),
+  --fgColorHighest: var(--fgColorHighest),
+);
+
+@function getThemeProp($prop) {
+  @return map-get($themeProps, $prop);
+}

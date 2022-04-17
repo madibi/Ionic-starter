@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+@mixin blur {
+  background: linear-gradient(91.44deg, rgba(255, 255, 255, 0.18) 0%, rgba(196, 196, 196, 0.06) 100%);
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+}
+
+@mixin gradient-green-center {
+  background: linear-gradient(270deg, #010E17 0%, #15AB89 51.04%, #010E17 100%);
+}
+
+@mixin gradient-green-01 {
+  background: linear-gradient(90.93deg, #097369 0%, #15AB88 100%);
+}
+
+@mixin gradient-gray-01 {
+  background: linear-gradient(91.44deg, rgba(255, 255, 255, 0.18) 0%, rgba(196, 196, 196, 0.06) 100%);
+}
+
+@mixin transition($property: all, $duration: 0.3s, $effect: ease-out ) {
+  transition: $property $duration $effect;
+  //property: All|Background|Color|Height|Width|outline
+  //effect: ease|linear|ease-in|ease-out|ease-in-out
+}

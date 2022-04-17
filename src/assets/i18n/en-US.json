@@ -1,0 +1,17 @@
+{
+	"auth-request-code.mobile-number": "mobile number",
+	"auth-request-code.send": "send mobile number",
+	"auth-request-code.title": "enter mobile number",
+	"auth-verify-code.code": "code",
+	"auth-verify-code.send": "send code",
+	"auth-verify-code.title": "enter received code",
+	"home.change-language": "CHANGE LANGUAGE",
+	"home.change-theme": "CHANGE THEME",
+	"home.front-end-features-sample": "FRONT END FEATURES SAMPLE",
+	"home.login-by-app-sms": "LOGIN BY APP SMS",
+	"home.login-by-firebase-sms": "LOGIN BY FIREBSE SMS",
+	"home.sample-enum": "SAMPLE ENUM",
+	"master.logo-type-bottom": "STORE",
+	"master.logo-type-middle": "BOOK",
+	"master.logo-type-top": "CODEEX"
+}
