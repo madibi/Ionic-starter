@@ -1,0 +1,17 @@
+{
+	"auth-request-code.mobile-number": "բջջայինի համար",
+	"auth-request-code.send": "ուղարկել բջջային համարը",
+	"auth-request-code.title": "մուտքագրեք բջջային համարը",
+	"auth-verify-code.code": "ծածկագիրը",
+	"auth-verify-code.send": "ուղարկել կոդը",
+	"auth-verify-code.title": "մուտքագրեք ստացված կոդը",
+	"home.change-language": "ՓՈԽԵԼ ԼԵԶՈՒՆ",
+	"home.change-theme": "ՓՈԽԵԼ ԹԵՄԱ",
+	"home.front-end-features-sample": "FRONT END ԱՌԱՆՁՆԱՀԱՏԿՈՒԹՅՈՒՆՆԵՐԻ ՆՄԻՆ",
+	"home.login-by-app-sms": "Մուտք գործեք APP SMS-ի միջոցով",
+	"home.login-by-firebase-sms": "Մուտք գործեք FIREBASE SMS-ի միջոցով",
+	"home.sample-enum": "ՆՄԱՆԱԿԱՆ ՀԱՄԱՐ",
+	"master.logo-type-bottom": "ԽԱՆՈՒԹ",
+	"master.logo-type-middle": "ԳՐՔԻ",
+	"master.logo-type-top": "CODEEX"
+}

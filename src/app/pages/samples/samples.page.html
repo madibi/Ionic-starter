@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>samples</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="host sample" host-classes>
+  <section class="comp sample">
+    <br />
+    <hr />
+    <br />
+<!--    <h1>{{'home.front-end-features-sample' | translate}}</h1>-->
+    <br />
+    <hr />
+    <br />
+    <app-button (click)="loginByAppSms()">{{'home.login-by-app-sms' | translate}}</app-button>
+    <br />
+    <hr />
+    <br />
+    <app-button (click)="loginByFirebaseSms()">{{'home.login-by-firebase-sms' | translate}}</app-button>
+    <br />
+    <hr />
+    <br />
+    <h2>{{'home.sample-enum' | translate}}</h2>
+    <br />
+    <ul>
+      <li *ngFor="let enumOptionSample of (enumOptionSamples$ | async)">
+        KEY: {{enumOptionSample.key}}, VALUE: {{enumOptionSample.value}}
+      </li>
+    </ul>
+    <br />
+    <hr />
+    <br />
+    <div class="select-language">
+      <h2>{{'home.register-by-other-sms-panel' | translate}}</h2>
+      <br />
+      <app-select-language-component></app-select-language-component>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="theme">
+      <h2>{{'home.change-theme' | translate}}</h2>
+      <br />
+      <div>
+        <span class="app-icon-light"
+              (click)="toggleAppTheme(AppTheme.LIGHT)"
+              [ngClass]="{active: (appTheme$ | async) == AppTheme.LIGHT}"></span>
+        <span class="app-icon-dark"
+              (click)="toggleAppTheme(AppTheme.DARK)"
+              [ngClass]="{active: (appTheme$ | async) == AppTheme.DARK}"></span>
+      </div>
+    </div>
+  </section>
+</ion-content>

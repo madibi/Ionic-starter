@@ -1,0 +1,1 @@
+export interface Theme {  bgColorLowest: string;  bgColorLower: string;  bgColorLow: string;  bgColor: string;  bgColorHigh: string;  bgColorHigher: string;  bgColorHighest: string;  fgColorLowest: string;  fgColorLower: string;  fgColorLow: string;  fgColor: string;  fgColorHigh: string;  fgColorHigher: string;  fgColorHighest: string;}

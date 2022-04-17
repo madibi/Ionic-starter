@@ -1,0 +1,17 @@
+{
+	"auth-request-code.mobile-number": "شماره همراه",
+	"auth-request-code.send": "ارسال شماره همراه",
+	"auth-request-code.title": "ورود شماره همراه",
+	"auth-verify-code.code": "کد",
+	"auth-verify-code.send": "ارسال کد",
+	"auth-verify-code.title": "ورود کد دریافتی ",
+	"home.change-language": "تغییر زبان",
+	"home.change-theme": "تغییر مد تصویر",
+	"home.front-end-features-sample": "نمایش قسمتی از قابلیت های فرانت",
+	"home.login-by-app-sms": "ورود با پیامک اپ",
+	"home.login-by-firebase-sms": "ورود با پیامک فایربیس",
+	"home.sample-enum": "لیست نمونه",
+	"master.logo-type-bottom": "کدکس",
+	"master.logo-type-middle": "کتاب",
+	"master.logo-type-top": "فروشگاه"
+}

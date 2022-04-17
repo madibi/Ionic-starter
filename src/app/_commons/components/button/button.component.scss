@@ -1,0 +1,21 @@
+@import 'core';
+
+button {
+  min-height: $button-height;
+  line-height: $button-height;
+  padding: $button-padding;
+  border-radius: $radius-button;
+  display: inline-block;
+  border: none;
+  @include gradient-green-01;
+
+  &.half {
+    min-height: calc(#{$button-height} * 2/3);
+    line-height: calc(#{$button-height} * 2/3);
+    font-size: .8rem;
+  }
+
+  &.wide {
+    width: 100%;
+  }
+}

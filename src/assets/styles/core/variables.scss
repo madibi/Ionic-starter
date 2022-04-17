@@ -1,0 +1,15 @@
+@import './colors.scss';
+@import './theme.scss';
+
+// properties
+$app-max-width: 1300px;
+$app-max-module-width: 800px;
+$app-bg-color: getThemeProp(--bgColor);
+
+$button-height: 30px;
+$button-padding: 3px 15px;
+
+$font-color: getThemeProp(--fgColor);;
+$font-color-active: $colorGreen500;
+
+$radius-button: 5px;

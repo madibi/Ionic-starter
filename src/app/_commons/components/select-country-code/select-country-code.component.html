@@ -1,0 +1,19 @@
+<section class="host select-country-code" host-classes>
+  <section class="comp select-country-code">
+    <ng-select
+      [items]="languages"
+      [clearable]="false"
+      [(ngModel)]="currentLanguagePhonePrefix"
+      (change)="changePhonePrefix($event)"
+      bindLabel="phonePrefix"
+      bindValue="phonePrefix">
+      <ng-template ng-label-tmp let-item="item">
+        <span class="code">{{item.phonePrefix}}</span>
+      </ng-template>
+      <ng-template ng-option-tmp let-item="item">
+        <img height="15" width="15" [src]="env.fileServeUrl + item.flagUrl"/>
+        <span class="code">{{item.phonePrefix}}</span>
+      </ng-template>
+    </ng-select>
+  </section>
+</section>

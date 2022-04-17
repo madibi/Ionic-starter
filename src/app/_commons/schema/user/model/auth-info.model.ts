@@ -1,0 +1,1 @@
+import { RequestCodeSmsType } from '../enum/request-code-sms-type.enum';import { RequestCodeType } from '../enum/request-code-type.enum';export interface AuthInfo {  type: RequestCodeType;  smsType: RequestCodeSmsType;  phonePrefix: string;  mobileNumber: string;  recaptchaToken: string;  message: string;  sessionInfo: string;  enteredCode: string;}

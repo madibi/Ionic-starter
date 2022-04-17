@@ -1,0 +1,35 @@
+<section class="host verify-code" host-classes>
+  <section class="comp verify-code">
+    <div class="module-title">
+      <span>{{'auth-verify-code.title' | translate}}</span>
+    </div>
+    <div class="main">
+      <div class="wrapper">
+        <div class="content">
+          <div class="start">
+            <form libs-form [formGroup]="verifyCodeForm">
+              <div class="form-control">
+                <div class="main">
+                  <label>{{'auth-verify-code.code' | translate}}</label>
+                  <input
+                    type="text"
+                    [attr.autocomplete]="isDevMode ? '' : 'off'"
+                    name="code"
+                    formControlName="code"
+                    libs-input-text />
+                </div>
+                <div class="validation">
+                </div>
+              </div>
+              <div class="buttons">
+                <app-button [wide]="true" (click)="verifyCode()">{{'auth-verify-code.send' | translate}}</app-button>
+              </div>
+            </form>
+          </div>
+          <div class="end"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
